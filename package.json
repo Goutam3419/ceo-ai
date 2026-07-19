@@ -1,0 +1,15 @@
+{
+  "name": "ai-company-os",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Company OS - Admin Panel foundation scaffold (all 12 module boundaries implemented, plus real GitHub/Vercel executors, Firebase persistence, and a CEO Agent chat endpoint)",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "firebase-admin": "^12.7.0"
+  },
+  "devDependencies": {}
+}
